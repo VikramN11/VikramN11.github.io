@@ -1,0 +1,27 @@
+.secondiv{
+    margin: auto;
+    padding: 200px;
+    text-align: left;
+    border: 1px solid white;
+}
+
+.secondiv>p:nth-child(1){
+    color: #52d3b9;
+    font-size: 18px;
+}
+
+.secondiv>h1{
+    color: #cbd5f5;
+    font-size: 60px;
+    font-weight: bold;
+}
+.secondiv>h2{
+    color: #8892b0;
+    font-size: 50px;
+    font-weight: bold;
+}
+.secondiv>p:last-child{
+    color:#8892b0;
+    font-size: 20px;
+    width: 45%;
+}
