@@ -17,7 +17,12 @@ const Navbar = () => {
           <div>Projects</div>
         </Link>
         <Link to="/contact">
-          <button style={{border:"2px solid #8892b0", padding:"5px", borderRadius:"7px"}}>Contact & Resume</button>
+          <div>Contact</div>
+        </Link>
+        <Link to="./Vikram_Navik.pdf" target="_blank">
+          <div>
+            <button style={{border:"2px solid #8892b0", padding:"5px", borderRadius:"7px"}}>Resume</button>
+          </div>
         </Link>
     </div>
   )
