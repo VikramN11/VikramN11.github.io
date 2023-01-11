@@ -1,3 +1,17 @@
+/*!
+ * days <https://github.com/jonschlinkert/days>
+ *
+ * Copyright (c) 2014-2017, Jon Schlinkert.
+ * Released under the MIT License.
+ */
+
+/*!
+ * months <https://github.com/datetime/months>
+ *
+ * Copyright (c) 2014-2017, Jon Schlinkert.
+ * Released under the MIT License.
+ */
+
 /**
  * @license React
  * react-dom.production.min.js
@@ -40,28 +54,6 @@
 
 /**
  * @remix-run/router v1.2.1
- *
- * Copyright (c) Remix Software Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.md file in the root directory of this source tree.
- *
- * @license MIT
- */
-
-/**
- * React Router DOM v6.6.1
- *
- * Copyright (c) Remix Software Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.md file in the root directory of this source tree.
- *
- * @license MIT
- */
-
-/**
- * React Router v6.6.1
  *
  * Copyright (c) Remix Software Inc.
  *
