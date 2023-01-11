@@ -24,3 +24,84 @@
     font-size: 20px;
     width: 45%;
 }
+
+/* About Me */
+
+.aboutdiv{
+    background-color: #0a192f;
+    width: 100%;
+    padding: 80px;
+    margin-top: 100px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.imagediv{
+    border-radius: 50%;
+}
+.secdiv{
+    width: 45%;
+}
+.secdiv>h3{
+    color: #cbd5f5;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+.secdiv>p{
+    color: #8892b0;
+    font-size: 18px;
+}
+
+/* Skills */
+.skilldiv{
+    margin-top: 150px;
+}
+
+.skilldiv>h3{
+    color: #cbd5f5;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.skillindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.icondiv{
+    font-size: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    row-gap: 80px;
+    column-gap: 80px;
+}
+
+.textdiv{
+    width: 30%;
+    color: #8892b0;
+    font-size: 18px;
+}
+
+.calendardiv>h3{
+    color: #cbd5f5;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.calendardiv>div{
+    width: 55%;
+    margin: auto;
+    color: #8892b0;
+    font-size: 18px;
+}
+
+.calendardiv>div>div>div>div>div:nth-child(2){
+    display: inline-block;
+}

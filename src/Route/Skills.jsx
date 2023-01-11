@@ -7,7 +7,10 @@ const Skills = () => {
       <h3>Technical Skills</h3>
         <div>
           <img src="./images/jslogo1.png" alt="javalogo" />
-          <img src="./images/htmlogo1.png" alt="htmlogo1" />
+          
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
+          
+          
         </div>
     </div>
   )

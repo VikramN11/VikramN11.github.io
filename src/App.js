@@ -1,12 +1,12 @@
 import './App.css';
-import AllRoute from './Route/AllRoute';
+import Home from './Route/Home';
 import Navbar from './Route/Navbar';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <AllRoute />
+      <Home />
     </div>
   );
 }
