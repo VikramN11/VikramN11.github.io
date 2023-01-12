@@ -67,6 +67,13 @@ const Home = () => {
           <i class="devicon-mongodb-plain-wordmark colored"></i>
         </div>
         </div>
+        {/* My Statistics */}
+        <div>
+          <h3>My Statistics</h3>
+          <div>
+            
+          </div>
+        </div>
 
         <div className={styles.calendardiv}>
           <h3>My Github Calendar</h3>
