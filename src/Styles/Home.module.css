@@ -40,11 +40,10 @@
 
 .imagediv{
     border-radius: 50%;
-}
-img {
+    background-color: #52d3b9;
     opacity: 0.5;
-  }
-  
+}
+
   img:hover {
     opacity: 1.0;
   }
@@ -72,7 +71,7 @@ img {
     color: #cbd5f5;
     font-size: 4rem;
     font-weight: bold;
-    margin-bottom: 8rem;
+    margin: 5rem;
 }
 
 .skillindiv{
@@ -100,7 +99,7 @@ img {
     color: #cbd5f5;
     font-size: 4rem;
     font-weight: bold;
-    margin-bottom: 8rem;
+    margin: 5rem;
 }
 
 .calendardiv>div{
@@ -112,4 +111,72 @@ img {
 
 .calendardiv>div>div>div>div>div:nth-child(2){
     display: inline-block;
+}
+
+.mystats>h3{
+    color: #cbd5f5;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 5rem;
+}
+
+.mystats>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+
+.projectsdiv>h3{
+    color: #cbd5f5;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 5rem;
+}
+.projectsdiv>div{
+    width: 90rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.projectsdiv>div>img{
+    width: 45rem;
+    height: 30rem;
+}
+.projectsdiv>div>div>h4{
+    color: #cbd5f5;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+.projectsdiv>div>div>div>i{
+    font-size: 6rem;
+}
+.projectsdiv>div>div>p{
+    color: #8892b0;
+    font-size: 1.8rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+.projectsdiv>div>div>a>button{
+    border: 2px solid #8892b0;
+    border-radius: 0.5rem;
+    color: #8892b0;
+    font-size: 1.8rem;
+    margin: 1rem;
+    padding: 0.4rem;
+}
+
+.contactdiv>h3{
+    color: #cbd5f5;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 5rem;
+}
+
+.contactdiv>p{
+    color: #8892b0;
+    font-size: 1.8rem;
+    margin: 1rem 0rem 1rem 0rem;
 }
