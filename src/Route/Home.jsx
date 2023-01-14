@@ -88,7 +88,7 @@ const Home = () => {
         
     </div>
     {/* Projects */}
-    <div className={styles.projectsdiv}>
+    <div className={styles.projectsdiv} id="project">
       <h3>Featured Projects</h3>
       <div>
         <img src="./images/monsterclone.png" alt="monsterclone" />
@@ -126,13 +126,13 @@ const Home = () => {
       </div>
     </div>
     {/* Contact */}
-    <div className={styles.contactdiv}>
+    <div className={styles.contactdiv} id="contact">
       <h3>Contact</h3>
       <p>Contact Number : 8668216726</p>
       <p>Email Address : vikramnavik98@gmail.com</p>
       <p>Address : Nagpur, Maharashtra</p>
-      <a href=""><i class="devicon-linkedin-plain"></i></a>
-      <a href=""><i class="devicon-github-original colored"></i></a>
+      <a href=""><i class="devicon-linkedin-plain colored"></i></a>
+      <a href=""><i class="devicon-github-original"></i></a>
       <a href=""></a>
       </div>
     </div>

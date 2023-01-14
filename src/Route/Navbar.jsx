@@ -14,17 +14,17 @@ const Navbar = () => {
         <Link to="skills" smooth={true} duration={500}>
           <div className={styles.navindiv}>Skills</div>
         </Link>
-        <Link to="projects" smooth={true} duration={500}>
+        <Link to="project" smooth={true} duration={500}>
           <div className={styles.navindiv}>Projects</div>
         </Link>
-        <Link to="/contact">
+        <Link to="contact">
           <div className={styles.navindiv}>Contact</div>
         </Link>
-        <Link to="./Vikram_Navik.pdf" target="_blank">
+        <a href="./Vikram_Navik.pdf" target="_blank">
           <div className={styles.navindiv}>
             <button style={{border:"0.2rem solid #8892b0", padding:"0.5rem", borderRadius:"0.7rem"}}>Resume</button>
           </div>
-        </Link>
+        </a>
     </div>
   )
 }

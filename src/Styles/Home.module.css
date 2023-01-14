@@ -126,7 +126,9 @@
     align-items: center;
     gap:1rem;
 }
-
+.projectsdiv{
+    margin: 5rem;
+}
 .projectsdiv>h3{
     color: #cbd5f5;
     font-size: 4rem;
