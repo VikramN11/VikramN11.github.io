@@ -46,7 +46,6 @@
     display: flex;
     align-items: center;
     gap: 5rem;
-    border: 1px solid white;
 }
 
 .imagediv{
@@ -75,24 +74,24 @@
 
 /* Skills */
 .skilldiv{
-    margin-top: 15rem;
+    margin-top: 10vw;
 }
 
 .skilldiv>h3{
     color: #cbd5f5;
-    font-size: 4rem;
+    font-size: 3vw;
     font-weight: bold;
-    margin: 5rem;
+    margin: 4vw;
 }
 
 .skillindiv{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
+    gap: 8vw;
 }
 .icondiv{
-    font-size: 10rem;
+    font-size: 4vw;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: auto;
@@ -100,24 +99,44 @@
     column-gap: 8rem;
 }
 
+.tooldiv>h3{
+    color: #cbd5f5;
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 4vw;
+}
+
+.tooldiv>div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 6vw;
+}
+
+.tooldiv>div>i{
+    font-size: 4vw;
+}
+
 .textdiv{
     width: 30%;
     color: #8892b0;
-    font-size: 1.8rem;
+    font-size: 1.5vw;
 }
 
 .calendardiv>h3{
     color: #cbd5f5;
-    font-size: 4rem;
+    font-size: 3vw;
     font-weight: bold;
-    margin: 5rem;
+    margin: 4vw;
 }
 
 .calendardiv>div{
     width: 55%;
     margin: auto;
     color: #8892b0;
-    font-size: 1.8rem;
+    font-size: 1.6vw;
 }
 
 .calendardiv>div>div>div>div>div:nth-child(2){
@@ -126,28 +145,38 @@
 
 .mystats>h3{
     color: #cbd5f5;
-    font-size: 4rem;
+    font-size: 3vw;
     font-weight: bold;
-    margin: 5rem;
+    margin: 4vw;
 }
 
-.mystats>div{
+.mystatimg{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:1rem;
+    gap:1vw;
 }
+
+.mystatimg>img:first-child{
+    width: 31vw;
+}
+
+.mystatimg>img:last-child{
+    width: 28vw;
+}
+
+
 .projectsdiv{
-    margin: 5rem;
+    margin: 4vw;
 }
 .projectsdiv>h3{
     color: #cbd5f5;
-    font-size: 4rem;
+    font-size: 3vw;
     font-weight: bold;
-    margin: 5rem;
+    margin: 4vw;
 }
 .projectsdiv>div{
-    width: 90rem;
+    width: 80vw;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -155,30 +184,34 @@
     gap: 1rem;
 }
 .projectsdiv>div>img{
-    width: 45rem;
-    height: 30rem;
+    width: 40vw;
+    height: 28vw;
 }
 .projectsdiv>div>div>h4{
     color: #cbd5f5;
-    font-size: 3rem;
+    font-size: 2vw;
     font-weight: bold;
-    margin-bottom: 3rem;
+    margin-bottom: 2vw;
 }
 .projectsdiv>div>div>div>i{
-    font-size: 6rem;
+    font-size: 5vw;
 }
 .projectsdiv>div>div>p{
     color: #8892b0;
-    font-size: 1.8rem;
+    font-size: 1.6vw;
     margin: 1rem 0rem 1rem 0rem;
 }
 .projectsdiv>div>div>a>button{
     border: 2px solid #8892b0;
     border-radius: 0.5rem;
     color: #8892b0;
-    font-size: 1.8rem;
-    margin: 1rem;
-    padding: 0.4rem;
+    font-size: 1.6vw;
+    margin: 0.8vw;
+    padding: 0.3vw;
+}
+
+.contactdiv{
+    margin-top: 4vw;
 }
 
 .contactdiv>h3{
@@ -192,4 +225,15 @@
     color: #8892b0;
     font-size: 1.8rem;
     margin: 1rem 0rem 1rem 0rem;
+}
+
+.contactdiv>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.contactdiv>div>a>i{
+    font-size: 2vw;
 }

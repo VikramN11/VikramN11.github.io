@@ -54,12 +54,23 @@ const Home = () => {
           <i class="devicon-mongodb-plain-wordmark colored"></i>
         </div>
         </div>
+        <div className={styles.tooldiv}>
+          <h3>Tools</h3>
+          <div>
+            <i class="devicon-git-plain colored"></i>
+            <i class="devicon-github-original colored"></i>
+            <i class="devicon-vscode-plain colored"></i>
+            <i class="devicon-npm-original-wordmark colored"></i> 
+            <i class="devicon-jest-plain colored"></i> 
+            <i class="devicon-heroku-original-wordmark colored"></i>
+          </div>
+        </div>
         {/* My Statistics */}
         <div className={styles.mystats}>
           <h3>My Statistics</h3>
-          <div>
-            <img width="450px" height="400px" align="center" src="https://github-readme-stats.vercel.app/api?username=vikramn11&show_icons=true&locale=en" alt="vikramn11" />
-            <img width="450px" height="400px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=vikramn11&show_icons=true&locale=en&layout=compact" alt="vikramn11" />
+          <div className={styles.mystatimg}>
+            <img src="https://github-readme-stats.vercel.app/api?username=vikramn11&show_icons=true&locale=en" alt="vikramn11" />
+            <img src="https://github-readme-stats.vercel.app/api/top-langs?username=vikramn11&show_icons=true&locale=en&layout=compact" alt="vikramn11" />
           </div>
         </div>
 
@@ -67,7 +78,7 @@ const Home = () => {
           <h3>My Github Calendar</h3>
           {/* My Github Calendar */}
           <div>
-          <GitHubCalendar style={{margin:"auto", color:"white"}} username='vikramn11'>
+          <GitHubCalendar style={{margin:"auto", color:"white", fontSize:"10vw"}} username='vikramn11'>
             </GitHubCalendar>
           </div>
             
@@ -161,8 +172,10 @@ const Home = () => {
       <p>Contact Number : 8668216726</p>
       <p>Email Address : vikramnavik98@gmail.com</p>
       <p>Address : Nagpur, Maharashtra</p>
-      {/* <a href="#"><i class="devicon-linkedin-plain colored"></i></a>
-      <a href="#"><i class="devicon-github-original"></i></a> */}
+      <div>
+        <a href="https://www.linkedin.com/in/vikramnavik8983/"><i class="devicon-linkedin-plain colored"></i></a>
+        <a href="https://github.com/VikramN11"><i class="devicon-github-original colored"></i></a>
+      </div>
       </div>
     </div>
   )
