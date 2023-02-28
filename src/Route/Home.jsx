@@ -80,6 +80,46 @@ const Home = () => {
     <div className={styles.projectsdiv} id="project">
       <h3>Featured Projects</h3>
       <div>
+        <img src="./images/bblooms.png" alt="1800flowersclone" />
+        <div>
+          <h4>1800-flowers Clone</h4>
+          <div>
+            <i class="devicon-html5-plain colored"></i>
+            <i class="devicon-css3-plain colored"></i>
+            <i class="devicon-javascript-plain colored"></i>
+            <i class="devicon-react-original colored"></i>
+            <i class="devicon-github-original colored"></i>
+            <i class="devicon-express-original colored"></i>
+            <i class="devicon-mongodb-plain colored"></i>
+          </div>
+          <p>Ecommerce website where you can buy different gifts for diffrent occassions.
+             A collaborative project built by a team of 5 executed in 7 days.
+          </p>
+          <a href="https://bblooms.vercel.app/"><button>Check it out!</button></a>
+          <a href="https://github.com/swati082001/bBlooms-1800Flowers-clone"><button>Github Link</button></a>
+        </div>
+      </div>
+      &nbps
+      <div>
+        <div>
+          <h4>Shopclues Clone</h4>
+          <div>
+            <i class="devicon-html5-plain colored"></i>
+            <i class="devicon-css3-plain colored"></i>
+            <i class="devicon-javascript-plain colored"></i>
+            <i class="devicon-react-original colored"></i>
+            <i class="devicon-github-original colored"></i>
+          </div>
+          <p>Ecommerce online website for the best products of all categories for the consumer.
+             A collaborative project built by a team of 5 executed in 7 days.
+          </p>
+          <a href="https://shopease-net.netlify.app/"><button>Check it out!</button></a>
+          <a href="https://github.com/Shekhar-Joshi07/Shopease"><button>Github Link</button></a>
+        </div>
+        <img src="./images/shopeasess.png" alt="shopcluesclone" />
+      </div>
+      &nbps
+      <div>
         <img src="./images/monsterclone.png" alt="monsterclone" />
         <div>
           <h4>Monster India Clone</h4>
@@ -96,6 +136,7 @@ const Home = () => {
           <a href="https://github.com/Abhijeet-abhi/enormous-weight-975"><button>Github Link</button></a>
         </div>
       </div>
+      &nbps
       <div>
         <div>
           <h4>India Today Clone</h4>
