@@ -25,6 +25,11 @@ const Navbar = () => {
             <button style={{border:"0.2rem solid #8892b0", padding:"0.5rem", borderRadius:"0.7rem"}}>Resume</button>
           </div>
         </a>
+        <a href="#" className={styles.toggle_button}>
+          <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
+        </a>
     </div>
   )
 }
