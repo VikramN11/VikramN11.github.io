@@ -1,21 +1,8 @@
 import React from 'react';
 import styles from "../Styles/Home.module.css";
-import GitHubCalendar from "github-calendar";
+import GitHubCalendar from "react-github-calendar";
 
 const Home = () => {
-    const username="VikramN11";
-
-    GitHubCalendar(".calendar", `${username}`);
-
-    // or enable responsive functionality:
-    GitHubCalendar(".calendar", `${username}`, { responsive: true });
-
-    // Use a proxy
-    GitHubCalendar(".calendar", `${username}`, {
-       proxy (username) {
-         return fetch(`https://your-proxy.com/github?user=${username}`)
-       }
-    }).then(r => r.text())
 
   return (
     <div>
@@ -79,9 +66,11 @@ const Home = () => {
         <div className={styles.calendardiv}>
           <h3>My Github Calendar</h3>
           {/* My Github Calendar */}
-          <div className = "calendar">
-            Loading the data just for you.
+          <div>
+          <GitHubCalendar style={{margin:"auto", color:"white"}} username='vikramn11'>
+            </GitHubCalendar>
           </div>
+            
         </div>
 
 
@@ -131,9 +120,8 @@ const Home = () => {
       <p>Contact Number : 8668216726</p>
       <p>Email Address : vikramnavik98@gmail.com</p>
       <p>Address : Nagpur, Maharashtra</p>
-      <a href=""><i class="devicon-linkedin-plain colored"></i></a>
-      <a href=""><i class="devicon-github-original"></i></a>
-      <a href=""></a>
+      {/* <a href="#"><i class="devicon-linkedin-plain colored"></i></a>
+      <a href="#"><i class="devicon-github-original"></i></a> */}
       </div>
     </div>
   )
