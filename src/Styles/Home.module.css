@@ -1,6 +1,6 @@
 .secondiv{
     margin: auto;
-    padding: 20vw;
+    padding: 15vw;
     text-align: left;
     min-width: 100vh;
 }
@@ -139,12 +139,16 @@
     width: 55%;
     margin: auto;
     color: #8892b0;
-    font-size: 1.6vw;
+    font-size: 1vw;
 }
 
-.calendardiv>div>div>div>div>div:nth-child(2){
+/* .calendardiv>div>footer>div{
+    font-size: 0vw;
+} */
+
+/* .calendardiv>div>div>div>div>div:nth-child(2){
     display: inline-block;
-}
+} */
 
 .mystats>h3{
     color: #cbd5f5;
@@ -244,6 +248,61 @@
 }
 
 @media (max-width: 580px) {
+    .secondiv>p:nth-child(1){
+        font-size: 3.4vw;
+    }
+    
+    .secondiv>h1{
+        font-size: 6vw;
+    }
+    .secondiv>h2{
+        font-size: 4vw;
+    }
+    .secondiv>p:last-child{
+        font-size: 3.4vw;
+    }
+    .secdiv>p{
+        font-size: 3.4vw;
+        display: flex;
+    }
+
+    .aboutdiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagediv{
+        width: 150vw;
+    }
+
+    .textdiv>p{
+        font-size: 3.4vw;
+        text-align: justify;
+    }
+
+    .projectsdiv{
+        font-size: 4vw;
+    }
+
+    .contactdiv>div>a>i{
+        font-size: 3vw;
+    }
+
+    .mystatimg>img:first-child{
+        width: 40vw;
+    }
+    
+    .mystatimg>img:last-child{
+        width: 36vw;
+    }
+
+    .react-activity-calendar__count{
+        font-size: 1.6vw;
+    }
+    
+}
+
+@media (min-width: 581px) {
     .secondiv>p:nth-child(1){
         font-size: 3.4vw;
     }

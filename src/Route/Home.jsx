@@ -11,8 +11,8 @@ const Home = () => {
         <p>Hi, my name is</p>
         <h1>Vikram Navik.</h1>
         <h2>I build things for the web.</h2>
-        <p>I am an aspiring Full Stack Web Developer currently building projects on MERN stack.
-           I've had build two collabrative projects with the help of HTML, CSS, Javascript.
+        <p>I am an aspiring Full Stack Web Developer building projects on the MERN stack.
+           I've built three collaborative and one individual project with the help of HTML, CSS, Javascript, React, NodeJs, MongoDB, and Express.
         </p>
        </div>
     {/* About Me */}
@@ -23,10 +23,10 @@ const Home = () => {
        <div className={styles.secdiv}>
         <h3>About Me</h3>
          <p>I am a Full Stack Web Developer learning MERN Stack at Masai School.
-           I have done various group as well as individual projects in my journey at Masai.
-           I also did my B.Tech in Chemical Technology from Laxminarayan Institute of Technology, Nagpur.
-           After graduation I have done job in Food Industry as Quality Executive for one year and nine months. 
-           My interests are coding, watching News, playing cricket.</p>
+            I have done various group as well as individual projects in my journey at Masai.
+            I also did my B.Tech in Chemical Technology from Laxminarayan Institute of Technology, Nagpur.
+            After graduation, I have done a job in Food Industry as Quality Executive for one year and nine months.
+            My interests are coding, watching News, and playing cricket.</p>
        </div>
     </div>
     {/* Skills */}
