@@ -18,7 +18,7 @@ const Home = () => {
     {/* About Me */}
     <div className={styles.aboutdiv} id="about">
        <div>
-        <img className={styles.imagediv} src="./images/pic.jpg" alt="" />
+        <img className={styles.imagediv} src="./images/pic.jpg" alt="vikrampic" />
        </div>
        <div className={styles.secdiv}>
         <h3>About Me</h3>
