@@ -210,7 +210,7 @@
     padding: 0.3vw;
 }
 
-.calendardiv
+
 
 .contactdiv{
     margin-top: 4vw;
@@ -238,4 +238,24 @@
 
 .contactdiv>div>a>i{
     font-size: 2vw;
+}
+
+@media (max-width: 480px) {
+    .aboutdiv{
+        font-size: 4vw;
+        display: flex;
+    }
+
+    .textdiv{
+        font-size: 3.8vw;
+        text-align: justify;
+    }
+
+    .projectsdiv{
+        font-size: 4vw;
+    }
+
+    .contactdiv>div>a>i{
+        font-size: 3vw;
+    }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import styles from "../Styles/Navbar.module.css";
-import Vikram_Navik from "../assets/Vikram_Navik.pdf";
+import Vikram_Navik from "../assests/Vikram_Navik.pdf";
 
 const Navbar = () => {
     const onButtonClick = () =>{
@@ -25,7 +25,7 @@ const Navbar = () => {
         <Link to="contact">
           <div className={styles.navindiv}>Contact</div>
         </Link>
-        <a href="Vikram_Navik" target="_blank" onClick={onButtonClick} download="Vikram_Navik" title='Resume'>
+        <a href={Vikram_Navik} target="_blank" onClick={onButtonClick} download="Vikram_Navik" title='Resume'>
           <div className={styles.navindiv}>
             <button style={{border:"0.2rem solid #8892b0", padding:"0.5rem", borderRadius:"0.7rem"}}>Resume</button>
           </div>
