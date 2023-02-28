@@ -78,7 +78,7 @@ const Home = () => {
           <h3>My Github Calendar</h3>
           {/* My Github Calendar */}
           <div>
-          <GitHubCalendar style={{margin:"auto", color:"white", fontSize:"10vw"}} username='vikramn11'>
+          <GitHubCalendar style={{margin:"auto", color:"white"}} username='vikramn11'>
             </GitHubCalendar>
           </div>
             
