@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.72a6042c.css",
+    "main.css": "/static/css/main.2f48f90b.css",
     "main.js": "/static/js/main.13231316.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Vikram_Navik.pdf": "/static/media/Vikram_Navik.cd6006f590e1b61f6708.pdf",
     "index.html": "/index.html",
-    "main.72a6042c.css.map": "/static/css/main.72a6042c.css.map",
+    "main.2f48f90b.css.map": "/static/css/main.2f48f90b.css.map",
     "main.13231316.js.map": "/static/js/main.13231316.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72a6042c.css",
+    "static/css/main.2f48f90b.css",
     "static/js/main.13231316.js"
   ]
 }
