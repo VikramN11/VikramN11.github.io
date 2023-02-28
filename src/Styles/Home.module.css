@@ -247,7 +247,7 @@
     font-size: 2vw;
 }
 
-@media (max-width: 580px) {
+@media only screen and (max-width: 580px) {
     .secondiv>p:nth-child(1){
         font-size: 3.4vw;
     }
@@ -302,7 +302,7 @@
     
 }
 
-@media (min-width: 581px) {
+@media only screen and (max-width: 760px) {
     .secondiv>p:nth-child(1){
         font-size: 3.4vw;
     }

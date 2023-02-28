@@ -1,8 +1,9 @@
 .navindiv{
+    font-size: 2vw;
     cursor: pointer;
 }
 
-.toggle_button{
+/* .toggle_button{
     position: absolute;
     top: 2.4rem;
     right: 5rem;
@@ -18,14 +19,12 @@
     width: 100%;
     background-color: #cbd5f5;
     border-radius: 10px;
-}
+} */
 
 @media (max-width: 550px) {
+
     .navindiv{
-        display: none;
+        font-size: 3vw;
     }
 
-    .toggle_button{
-        display: flex;
-    }
 }
