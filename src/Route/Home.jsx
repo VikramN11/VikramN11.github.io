@@ -99,8 +99,8 @@ const Home = () => {
           <p>Ecommerce website where you can buy different gifts for diffrent occassions.
              A collaborative project built by a team of 5 executed in 7 days.
           </p>
-          <a href="https://bblooms.vercel.app/"><button>Check it out!</button></a>
-          <a href="https://github.com/swati082001/bBlooms-1800Flowers-clone"><button>Github Link</button></a>
+          <a href="https://bblooms.vercel.app/" target="_blank"><button>Check it out!</button></a>
+          <a href="https://github.com/swati082001/bBlooms-1800Flowers-clone" target="_blank"><button>Github Link</button></a>
         </div>
       </div>
       <br/><br/>
@@ -117,8 +117,8 @@ const Home = () => {
           <p>Ecommerce online website for the best products of all categories for the consumer.
              A collaborative project built by a team of 5 executed in 7 days.
           </p>
-          <a href="https://shopease-net.netlify.app/"><button>Check it out!</button></a>
-          <a href="https://github.com/Shekhar-Joshi07/Shopease"><button>Github Link</button></a>
+          <a href="https://shopease-net.netlify.app/" target="_blank"><button>Check it out!</button></a>
+          <a href="https://github.com/Shekhar-Joshi07/Shopease" target="_blank"><button>Github Link</button></a>
         </div>
         <img src="./images/shopeasess.png" alt="shopcluesclone" />
       </div>
@@ -136,8 +136,8 @@ const Home = () => {
           <p>A website for jobs and career opportunities in the e-recruitment space.
              A collaborative project built by a team of 5 executed in 7 days.
           </p>
-          <a href="https://shiny-smakager-81ae37.netlify.app/"><button>Check it out!</button></a>
-          <a href="https://github.com/Abhijeet-abhi/enormous-weight-975"><button>Github Link</button></a>
+          <a href="https://shiny-smakager-81ae37.netlify.app/" target="_blank"><button>Check it out!</button></a>
+          <a href="https://github.com/Abhijeet-abhi/enormous-weight-975" target="_blank"><button>Github Link</button></a>
         </div>
       </div>
       <br/><br/>
@@ -153,8 +153,8 @@ const Home = () => {
           <p>An online news magazine to read news from India and around the world.
              A collaborative project built by a team of 5 executed in 7 days.
           </p>
-          <a href="https://bespoke-naiad-451ef2.netlify.app/index.html"><button>Check it out!</button></a>
-          <a href="https://github.com/Saket1810/Construct-week"><button>Github Link</button></a>
+          <a href="https://bespoke-naiad-451ef2.netlify.app/index.html" target="_blank"><button>Check it out!</button></a>
+          <a href="https://github.com/Saket1810/Construct-week" target="_blank"><button>Github Link</button></a>
         </div>
         <img src="./images/indiatodayclone.png" alt="monsterclone" />
       </div>
@@ -166,8 +166,8 @@ const Home = () => {
       <p>Email Address : vikramnavik98@gmail.com</p>
       <p>Address : Nagpur, Maharashtra</p>
       <div>
-        <a href="https://www.linkedin.com/in/vikramnavik8983/"><i class="devicon-linkedin-plain colored"></i></a>
-        <a href="https://github.com/VikramN11"><i class="devicon-github-original" style={{color:"white"}}></i></a>
+        <a href="https://www.linkedin.com/in/vikramnavik8983/" target="_blank"><i class="devicon-linkedin-plain colored"></i></a>
+        <a href="https://github.com/VikramN11" target="_blank"><i class="devicon-github-original" style={{color:"white"}}></i></a>
       </div>
       </div>
     </div>
