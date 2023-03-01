@@ -6,15 +6,11 @@
 }
 
 .secondiv>p:nth-child(1){
-    margin: 0;
-    padding: 0;
     color: #52d3b9;
     font-size: 1.5vw;
 }
 
 .secondiv>h1{
-    margin: 0;
-    padding: 0;
     color: #cbd5f5;
     font-weight: bold;
     font-size: 4vw;
@@ -26,9 +22,7 @@
     font-size: 3vw;
     font-weight: bold;
 }
-.secondiv>p:last-child{
-    margin: 0;
-    padding: 0;
+.secondiv>div>p{
     color:#8892b0;
     font-size: 1.3vw;
     text-align: justify;
@@ -85,18 +79,16 @@
 }
 
 .skillindiv{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
     justify-content: center;
     align-items: center;
-    gap: 8vw;
+    gap: 6vw;
 }
-.icondiv{
+
+.skillindiv>i{
     font-size: 4vw;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: auto;
-    row-gap: 8rem;
-    column-gap: 8rem;
 }
 
 .tooldiv>h3{
@@ -248,15 +240,20 @@
 }
 
 @media only screen and (max-width: 580px) {
+
     .secondiv>p:nth-child(1){
         font-size: 3.4vw;
+        text-align: center;
+        padding-right: 42vw;
     }
     
     .secondiv>h1{
         font-size: 6vw;
+        padding-right: 42vw;
     }
     .secondiv>h2{
         font-size: 4vw;
+        padding-right: 42vw;
     }
     .secondiv>p:last-child{
         font-size: 3.4vw;
@@ -275,6 +272,16 @@
         width: 150vw;
     }
 
+    .skillindiv{
+        grid-template-columns: repeat(1fr,2);
+        grid-template-rows: auto;
+    }
+
+    .tooldiv>div{
+        grid-template-columns: repeat(1fr,2);
+        grid-template-rows: auto;
+    }
+
     .textdiv>p{
         font-size: 3.4vw;
         text-align: justify;
@@ -282,6 +289,10 @@
 
     .projectsdiv{
         font-size: 4vw;
+    }
+
+    .projectsdiv>p{
+        font-size: 6vw;
     }
 
     .contactdiv>div>a>i{
@@ -302,9 +313,18 @@
     
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 780px) {
+
+    .secondiv{
+        padding-right: 46vw;
+        text-align: center;
+    }
+
     .secondiv>p:nth-child(1){
-        font-size: 3.4vw;
+        font-size: 3.6vw;
+    }
+    .secondiv>div{
+        padding-left: 18vw;
     }
     
     .secondiv>h1{
@@ -313,11 +333,13 @@
     .secondiv>h2{
         font-size: 4vw;
     }
-    .secondiv>p:last-child{
+    .secondiv>div>p{
         font-size: 3.4vw;
+        text-align: center;
+        max-width: 35vw;
     }
     .secdiv>p{
-        font-size: 3.4vw;
+        font-size: 4vw;
         display: flex;
     }
 
@@ -335,10 +357,6 @@
         text-align: justify;
     }
 
-    .projectsdiv{
-        font-size: 4vw;
-    }
-
     .contactdiv>div>a>i{
         font-size: 3vw;
     }
@@ -349,6 +367,10 @@
     
     .mystatimg>img:last-child{
         width: 36vw;
+    }
+
+    .projectsdiv>p{
+        font-size: 6vw;
     }
     
 }

@@ -11,9 +11,12 @@ const Home = () => {
         <p>Hi, my name is</p>
         <h1>Vikram Navik.</h1>
         <h2>I build things for the web.</h2>
+        <div>
         <p>I am an aspiring Full Stack Web Developer building projects on the MERN stack.
-           I've built three collaborative and one individual project with the help of HTML, CSS, Javascript, React, NodeJs, MongoDB, and Express.
+           I've built three collaborative and one individual project with the help of HTML,
+            CSS, Javascript, React, NodeJs, MongoDB, and Express.
         </p>
+        </div>
        </div>
     {/* About Me */}
     <div className={styles.aboutdiv} id="about">
@@ -33,26 +36,14 @@ const Home = () => {
     <div className={styles.skilldiv} id="skills">
       <h3>Technical Skills</h3>
         <div className={styles.skillindiv}>
-        <div className={styles.icondiv}>
           <i class="devicon-javascript-plain colored"></i>
           <i class="devicon-html5-plain-wordmark colored"></i>
           <i class="devicon-react-original colored"></i>
           <i class="devicon-css3-plain-wordmark colored"></i>
-        </div>
-        <div className={styles.textdiv}>
-          <p>My favorite languages and technologies that I have been using since I started coding for front-end web development and component design.</p>
-        </div>
-        </div>
-        <div className={styles.skillindiv}>
-        <div className={styles.textdiv}>
-          <p>My preferred technologies and tools for back-end web programming, database architecture, version control, code editing, and container orchestration.</p>
-        </div>
-        <div className={styles.icondiv}>
           <i class="devicon-express-original-wordmark colored"></i>
           <i class="devicon-github-original-wordmark colored"></i>
           <i class="devicon-nodejs-plain colored"></i>
           <i class="devicon-mongodb-plain-wordmark colored"></i>
-        </div>
         </div>
         <div className={styles.tooldiv}>
           <h3>Tools</h3>
@@ -110,7 +101,7 @@ const Home = () => {
           <a href="https://github.com/swati082001/bBlooms-1800Flowers-clone"><button>Github Link</button></a>
         </div>
       </div>
-      &nbps
+      <br/><br/>
       <div>
         <div>
           <h4>Shopclues Clone</h4>
@@ -129,7 +120,7 @@ const Home = () => {
         </div>
         <img src="./images/shopeasess.png" alt="shopcluesclone" />
       </div>
-      &nbps
+      <br/><br/>
       <div>
         <img src="./images/monsterclone.png" alt="monsterclone" />
         <div>
@@ -147,7 +138,7 @@ const Home = () => {
           <a href="https://github.com/Abhijeet-abhi/enormous-weight-975"><button>Github Link</button></a>
         </div>
       </div>
-      &nbps
+      <br/><br/>
       <div>
         <div>
           <h4>India Today Clone</h4>
