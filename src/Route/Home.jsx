@@ -8,9 +8,11 @@ const Home = () => {
     <div>
       {/* Home */}
     <div className={styles.secondiv} id="home">
+        <div>
         <p>Hi, my name is</p>
         <h1>Vikram Navik.</h1>
         <h2>I build things for the web.</h2>
+        </div>
         <div>
         <p>I am an aspiring Full Stack Web Developer building projects on the MERN stack.
            I've built three collaborative and one individual project with the help of HTML,
