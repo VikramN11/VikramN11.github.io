@@ -167,7 +167,7 @@ const Home = () => {
       <p>Address : Nagpur, Maharashtra</p>
       <div>
         <a href="https://www.linkedin.com/in/vikramnavik8983/"><i class="devicon-linkedin-plain colored"></i></a>
-        <a href="https://github.com/VikramN11"><i class="devicon-github-original colored"></i></a>
+        <a href="https://github.com/VikramN11"><i class="devicon-github-original" style={{color:"white"}}></i></a>
       </div>
       </div>
     </div>
