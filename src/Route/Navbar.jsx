@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import styles from "../Styles/Navbar.module.css";
-import Vikram_Navik from "../assests/Vikram_Navik.pdf";
+import Vikram_Navik from "../assests/fw17_0380_Vikram_Navik.pdf";
 
 const Navbar = () => {
     const onButtonClick = () =>{
